@@ -83,15 +83,15 @@ def clear():
 # BACK
 def back():
 	login()
- 
-evil="Death -"
-imt="-brand=="
-ak="-pro"
+
+SNIGDHO="DEVI-XD"
+imt="-EX4786=="
+VAU="VAU-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.Death -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.DEVI-XD-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.Death -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.DEVI-XD-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
