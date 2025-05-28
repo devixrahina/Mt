@@ -84,7 +84,7 @@ def clear():
 def back():
 	login()
  
-Death evil="Death -"
+evil="Death -"
 imt="-brand=="
 ak="-pro"
 myid=uuid.uuid4().hex[:10].upper()
