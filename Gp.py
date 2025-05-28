@@ -431,16 +431,16 @@ class Main:
 		print(" \033[0;98m[4] Cloning Old Idz 2006-10 ")
 		print(" [5] Cloning Old Idz 2011-25")
 		print("\033[0;91m [E] Exit \n")
-		Death evil =input(" \033[0;93mChoose : ")
-		if Death evil in ["1", "01"]:
+		evil =input(" \033[0;93mChoose : ")
+		if evil in ["1", "01"]:
 			File()
-		if Death evil in ["2", "02"]:
+		if evil in ["2", "02"]:
 			Public()
-		if Death evil in ["3", "03"]:
+		if evil in ["3", "03"]:
 			os.system("python2 Death 1.py")
-		if Death evil in ["4", "04"]:
+		if evil in ["4", "04"]:
 			self.old()
-		if Death evil in ["5", "05"]:
+		if evil in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
